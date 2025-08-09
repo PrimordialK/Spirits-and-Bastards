@@ -95,12 +95,78 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: skill1_12_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd510fc400d16424493551b9047dfda3
+      internalID: -2072296504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill1_12_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490f51727671e9e4d8cc644f5d5f100f
+      internalID: -1832066601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill1_12_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 6
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3d089bf77948b42a9719f4184fb21b
+      internalID: 1792564981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 59dd6bbd66b512e47bb95f933cab20c6
     internalID: 0
     vertices: []
     indices: 
@@ -109,7 +175,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skill1_12_0: -2072296504
+      skill1_12_1: -1832066601
+      skill1_12_2: 1792564981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -95,12 +95,56 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: skil2_1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 61
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18c481ee3a73c44eaee795bf46cef56
+      internalID: -789313819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skil2_1_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 47
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288174a8e042f1d42b85433b40349f1b
+      internalID: -1188324678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d0d04eb68f3be6a4eabb52213897ba72
     internalID: 0
     vertices: []
     indices: 
@@ -109,7 +153,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skil2_1_0: -789313819
+      skil2_1_1: -1188324678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

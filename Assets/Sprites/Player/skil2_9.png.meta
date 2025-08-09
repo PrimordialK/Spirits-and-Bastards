@@ -95,12 +95,144 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: skil2_9_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 54
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f6fbf6bdd1f174b8961d1d9289bcc8
+      internalID: 588313280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skil2_9_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 65
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f5c737a51dd6141b814c591acd3675
+      internalID: -123257850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skil2_9_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 56
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf87b74ce506c334b9c9de3acf23babe
+      internalID: -178657662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skil2_9_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 71
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c187d2f0fc2d2d408b73b25d24f6473
+      internalID: 1004901385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skil2_9_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d3153dfd32b05479d390e08989289d
+      internalID: 1780312435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skil2_9_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 53
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831ef5a5875af70438d85d1c3723a781
+      internalID: -1171875404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b79879e60a1b6944aa946e481cbf8e31
     internalID: 0
     vertices: []
     indices: 
@@ -109,7 +241,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skil2_9_0: 588313280
+      skil2_9_1: -123257850
+      skil2_9_2: -178657662
+      skil2_9_3: 1004901385
+      skil2_9_4: 1780312435
+      skil2_9_5: -1171875404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

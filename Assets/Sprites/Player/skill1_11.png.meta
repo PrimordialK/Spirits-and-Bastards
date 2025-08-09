@@ -95,12 +95,78 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: skill1_11_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 8
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17988e2e13c17e5458979831c98d4f02
+      internalID: 293979481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill1_11_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fe0108f3491ce41adcec8f99db70dc
+      internalID: 1677296566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skill1_11_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b2b1f2b650d214bb7f18c5ae16d02c
+      internalID: 620083004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d9565c8415182f24ca82cdc53a486d5c
     internalID: 0
     vertices: []
     indices: 
@@ -109,7 +175,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skill1_11_0: 293979481
+      skill1_11_1: 1677296566
+      skill1_11_2: 620083004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

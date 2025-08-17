@@ -32,16 +32,26 @@ public class PlayerScript : MonoBehaviour
         float moveSpeed = 5f; 
         rb.linearVelocityX = hValue * moveSpeed;
 
+        //This is for triggers in game. code uses ("nameOfTrigger") and then ("nameOfInputFromUnity").
         if (!currentState.IsName("Attack") && (Input.GetButtonDown("Fire1")))
         {
             anim.SetTrigger("Attack");
+
         }
         if (currentState.IsName("Attack"))
         {
             rb.linearVelocity = Vector2.zero;
         }
 
-        if (!currentState.IsName("Skill1") && (Input.GetButtonDown("Fire2")))
+        if (!currentState.IsName("Skill2") && (Input.GetButtonDown("Fire2")))
+        {
+            anim.SetTrigger("Skill2");
+        }
+        if (currentState.IsName("Skill2"))
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+        if (!currentState.IsName("Skill1") && (Input.GetButtonDown("Fire3")))
         {
             anim.SetTrigger("Skill1");
         }
@@ -56,4 +66,6 @@ public class PlayerScript : MonoBehaviour
     {
         if (hValue != 0) sr.flipX = (hValue < 0);
     }
+
+
 }

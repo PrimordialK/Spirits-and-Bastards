@@ -1,16 +1,25 @@
 using UnityEngine;
 
-public class Skill1Projectile : MonoBehaviour
+[RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
+public class Skill2Projectile : MonoBehaviour
+
 {
+    [SerializeField] private float lifetime = 1.0f;
+    private Animator anim;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+
+
+    private void Awake()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private void Start() => Destroy(gameObject, lifetime);
+
+   
+
+
+
 }

@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 7e409e77011a5114e9a5df37d1dbd018
+guid: 6c7757ab41072f745aeca05358878675
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - skill2ProjectilePrefab: {fileID: 3986006621241539291, guid: 4a1f2c1904df91744a1dd4df55b7d8f4, type: 3}
-  - groundY: {instanceID: 0}
+  - auraSpawn: {instanceID: 0}
+  - blueAuraPrefab: {fileID: 641298604748768177, guid: 0dd7061913eb97a40b449fa73748d827, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -5,21 +5,23 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(Collider2D))]
 [RequireComponent(typeof(Animator))]
-public class PlayerScript : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator anim;
     private Collider2D col;
+    [SerializeField] private GameObject blueAuraPrefab; // Assign in Inspector
+    public Transform playerTransform;
 
-
+    
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         col = GetComponent<Collider2D>();
-
+        playerTransform = GetComponent<Transform>();
     }
 
     void Update()
@@ -31,6 +33,7 @@ public class PlayerScript : MonoBehaviour
         SpriteFlip(hValue);
         float moveSpeed = 5f; 
         rb.linearVelocityX = hValue * moveSpeed;
+        playerTransform.position = new Vector3(playerTransform.position.x, playerTransform.position.y, 0);
 
         //This is for triggers in game. code uses ("nameOfTrigger") and then ("nameOfInputFromUnity").
         if (!currentState.IsName("Attack") && (Input.GetButtonDown("Fire1")))
@@ -67,5 +70,7 @@ public class PlayerScript : MonoBehaviour
         if (hValue != 0) sr.flipX = (hValue < 0);
     }
 
+    // When you want to activate the aura:
+    
 
 }

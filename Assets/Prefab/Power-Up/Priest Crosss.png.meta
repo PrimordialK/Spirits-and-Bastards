@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: af23ff303e7fd8e4d9402591c686052a
+guid: f3002e71797670c4fb59d9643fdcb8fd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 115
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,23 +97,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cartoon_Medieval_Guard_Post_2D_Level_Set_Building - Roof A 01_0
+      name: Priest Crosss_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 160
+        x: 52
+        y: 18
+        width: 152
+        height: 238
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 807f2acec229e574489c98759236ff8c
-      internalID: 2028312601
+      spriteID: 1d018ab71b1c17f44b68c5cafc80fc1b
+      internalID: 810798503
       vertices: []
       indices: 
       edges: []
@@ -122,7 +122,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3fb4d448973090d4da7148f3e9eb616b
+    spriteID: d836d377f8cf0014da07a103fa96906b
     internalID: 0
     vertices: []
     indices: 
@@ -132,7 +132,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cartoon_Medieval_Guard_Post_2D_Level_Set_Building - Roof A 01_0: 2028312601
+      Priest Crosss_0: 810798503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

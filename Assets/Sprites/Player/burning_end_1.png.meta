@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: af23ff303e7fd8e4d9402591c686052a
+guid: 2d8263119db78cb4ca3cce19104b7e0c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,23 +97,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cartoon_Medieval_Guard_Post_2D_Level_Set_Building - Roof A 01_0
+      name: BlueAuraEnding02
       rect:
         serializedVersion: 2
-        x: 0
+        x: 29
         y: 0
-        width: 128
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 15
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 807f2acec229e574489c98759236ff8c
-      internalID: 2028312601
+      spriteID: 7492ddc1d82824d448e72be125afc8e4
+      internalID: -1144763136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueAuraEnding01
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1688f8dc9595404a9fb942fe7993b05
+      internalID: -610724900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueAuraEnding03
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 18
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6c73275ae4374468f30d706708a5e8
+      internalID: -1407373745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueAuraEnding04
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3380d4ad060704780c55ad3e5ac005
+      internalID: 949426523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueAuraEnding05
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 6
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b358994ace51641951604eb98786cd
+      internalID: -435538788
       vertices: []
       indices: 
       edges: []
@@ -122,7 +210,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3fb4d448973090d4da7148f3e9eb616b
+    spriteID: 220767565eec53442844007c081c2f9d
     internalID: 0
     vertices: []
     indices: 
@@ -132,7 +220,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cartoon_Medieval_Guard_Post_2D_Level_Set_Building - Roof A 01_0: 2028312601
+      BlueAuraEnding01: -610724900
+      BlueAuraEnding02: -1144763136
+      BlueAuraEnding03: -1407373745
+      BlueAuraEnding04: 949426523
+      BlueAuraEnding05: -435538788
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

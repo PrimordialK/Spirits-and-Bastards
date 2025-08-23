@@ -13,8 +13,9 @@ public class PlayerController : MonoBehaviour
     private Collider2D col;
     [SerializeField] private GameObject blueAuraPrefab; // Assign in Inspector
     public Transform playerTransform;
-
     
+
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -31,7 +32,7 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("hValue", Mathf.Abs(hValue));
         AnimatorStateInfo currentState = anim.GetCurrentAnimatorStateInfo(0);
         SpriteFlip(hValue);
-        float moveSpeed = 5f; 
+        float moveSpeed = 7f; 
         rb.linearVelocityX = hValue * moveSpeed;
         playerTransform.position = new Vector3(playerTransform.position.x, playerTransform.position.y, 0);
 

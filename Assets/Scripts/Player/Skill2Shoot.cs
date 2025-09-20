@@ -1,12 +1,19 @@
 using UnityEngine;
 
+
 public class Skill2Shoot : MonoBehaviour
 {
     [SerializeField] private Skill2Projectile skill2ProjectilePrefab; // Prefab of the projectile
     [SerializeField] private float skillRange = 10f; // Maximum range to search for enemies
+    [SerializeField] private int manaCost = 40; // Mana cost for Skill2
     public float groundY; // Y position for ground-level spawn
 
     private SpriteRenderer sr;
+
+    public AudioClip skill2Sound;
+    private AudioSource audioSource;
+
+
 
     void Start()
     {
@@ -27,6 +34,13 @@ public class Skill2Shoot : MonoBehaviour
             return;
         }
 
+        // Check mana before activating skill
+        if (!GameManager.Instance.TrySpendMana(manaCost))
+        {
+            Debug.Log("Not enough mana for Skill2!");
+            return;
+        }
+
         GameObject closestEnemy = FindClosestEnemyInRange();
         if (closestEnemy == null)
         {
@@ -38,6 +52,8 @@ public class Skill2Shoot : MonoBehaviour
             closestEnemy.transform.position.x,
             groundY // Use the updated groundY value
         );
+
+        audioSource?.PlayOneShot(skill2Sound);
 
         Instantiate(skill2ProjectilePrefab, spawnPos, Quaternion.identity);
     }
@@ -65,4 +81,7 @@ public class Skill2Shoot : MonoBehaviour
         }
         return closest;
     }
+
+
+   
 }

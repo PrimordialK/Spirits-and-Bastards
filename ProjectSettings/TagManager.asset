@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - PowerUps
+  - Projectile
+  - Barriers
+  - Elevator
+  - Level
   layers:
   - Default
   - TransparentFX
@@ -18,8 +22,8 @@ TagManager:
   - PlayerEffects
   - EnemyEffects
   - PowerUps
-  - 
-  - 
+  - Elevator
+  - Level
   - 
   - 
   - 

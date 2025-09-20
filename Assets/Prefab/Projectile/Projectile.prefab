@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3460601386463197420}
   m_Layer: 8
   m_Name: Projectile
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -713287279
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1302559316, guid: 953105fdc4571d142b1c8d87c3c15608, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -200,7 +200,9 @@ Animation:
   m_Enabled: 1
   serializedVersion: 4
   m_Animation: {fileID: 7400000, guid: 37eef896c25c3294da6c618bd8487f20, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 37eef896c25c3294da6c618bd8487f20, type: 2}
+  - {fileID: 7400000, guid: 623db13e605b1b64d89e65852e73f0f3, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
